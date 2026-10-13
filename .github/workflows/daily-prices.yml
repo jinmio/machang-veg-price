@@ -1,24 +1,12 @@
 name: 每日实时菜价更新
 
-# 触发：每天 01:30 UTC = 北京时间 09:30 自动运行；也可在 Actions 页手动 Run workflow
 on:
   schedule:
     - cron: "30 1 * * *"
   workflow_dispatch: {}
 
-# contents:write 提交新价格；pages:write + id-token:write 用于部署 Pages
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages-deploy
-  cancel-in-progress: false
-
-environment:
-  name: github-pages
-  url: ${{ steps.deploy.outputs.page_url }}
 
 jobs:
   update:
@@ -56,13 +44,3 @@ jobs:
           else
             git commit -m "chore: 实时菜价更新 $(date +%Y-%m-%d)"
             git push
-          fi
-
-      - name: 上传 Pages 产物
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
-      - name: 部署到 GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v4
