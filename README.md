@@ -81,9 +81,9 @@ python3.11 update_prices.py --live
 
 > ⚠️ **自检结论（2026-10-13）**：每日更新要做到「用户端真的每天变」，必须让脚本跑在带 git 远程 + CI 的环境里。本项目已内置 `.github/workflows/daily-prices.yml`，但**只有把仓库推到 GitHub 并开启 Actions / Pages 后它才会真正每天运行**；本地未初始化 git 时它不会触发。请按下方「方案 D」一步上线。
 
-工作流逻辑：**每天 09:30（北京时间）= 01:30 UTC** 自动运行抓取 + 合并两步，将新 `data.js` + `live_market.json` 提交回仓库，并**自带 GitHub Pages 部署步骤**（`upload-pages-artifact` + `deploy-pages`），无需再手动配置「Deploy from branch」。
+工作流逻辑：**每天 09:30（北京时间）= 01:30 UTC** 自动运行抓取 + 合并两步，将新 `data.js` + `live_market.json` 提交回仓库；站点为「Deploy from a branch」模式，检测到新 commit 即自动重新部署（约 1-2 分钟）。
 
-- 若部署在 **GitHub Pages**：工作流直接完成部署，开启 Pages 即得每日更新站点。
+- 若部署在 **GitHub Pages**：工作流负责抓取+提交，推送即触发 Pages 重建。
 - 若部署在 **Vercel / Netlify / Cloudflare Pages**：它们会监听 commit 自动重新构建部署，无需额外配置。
 - 也可在 Actions 页面手动点一次 **Run workflow** 立即更新。
 
@@ -176,15 +176,15 @@ bash scripts/deploy_github.sh            # 默认建私有仓库 machang-veg-pri
 
 连 Git，Build command 留空、Build output directory 填 `.`，自带 CDN 与 HTTPS。
 
-### 方案 D：GitHub Pages（工作流自动部署，零额外配置）
+### 方案 D：GitHub Pages（已上线 + 工作流日更）
 
 > **当前实际状态**：站点已用「分支部署」上线（main 每次推送自动重建）。工作流文件 `.github/workflows/daily-prices.yml` 已在本地仓库写好，但通过 API 推送时令牌缺 `workflow` scope（GitHub 对工作流文件返回 404 掩盖权限不足）。补入方式二选一：
 >
-> **方式 1（网页端，2 分钟，推荐）**：打开 https://github.com/jinmio/machang-veg-price → Add file → Create new file → 文件名填 `.github/workflows/daily-prices.yml` → 粘贴本地该文件全文 → Commit changes。随后到 Settings → Pages → Build and deployment → Source 改为 **GitHub Actions**。
+> **方式 1（网页端，2 分钟，推荐）**：打开 https://github.com/jinmio/machang-veg-price → Add file → Create new file → 文件名填 `.github/workflows/daily-prices.yml` → 粘贴本地该文件全文 → Commit changes。**无需再改任何 Pages 设置**——工作流只负责抓数据+提交，一推送分支部署就自动重建网站。
 >
 > **方式 2（令牌）**：重新签发一个勾选 `workflow` scope 的 classic PAT，用 Contents API 推送该文件。
 
-工作流逻辑：**每天 09:30（北京时间）= 01:30 UTC** 自动运行抓取 + 合并两步，将新 `data.js` + `live_market.json` 提交回仓库，并**自带 GitHub Pages 部署步骤**（`upload-pages-artifact` + `deploy-pages`），无需再手动配置「Deploy from branch」。
+工作流逻辑：**每天 09:30（北京时间）= 01:30 UTC** 自动运行抓取 + 合并两步，将新 `data.js` + `live_market.json` 提交回仓库；站点为「Deploy from a branch」模式，检测到新 commit 即自动重新部署（约 1-2 分钟）。
 
 - 若部署在 **GitHub Pages**：工作流直接完成部署，开启 Pages 即得每日更新站点。
 
