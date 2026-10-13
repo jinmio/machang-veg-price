@@ -1,0 +1,11 @@
+# 配合 machang-price.timer 使用的「一次性更新」服务
+[Unit]
+Description=马厂蔬菜报价 每日数据更新
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=www-data
+WorkingDirectory=/srv/machang-veg-price
+ExecStart=/bin/bash /srv/machang-veg-price/scripts/daily_update.sh
