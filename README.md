@@ -2,6 +2,14 @@
 
 纯静态、响应式的蔬菜时价看板：40+ 品类、**多供应商比价**、**时价实时更新**、**验收标准采用上海聚垒规格书**。无需后端、无需数据库，部署到任意静态托管即可。
 
+> **线上状态（2026-10-13）**
+> - 站点：**https://jinmio.github.io/machang-veg-price/**（已构建成功，公开可访问）
+> - 仓库：`jinmio/machang-veg-price`（公开，GitHub Free 计划私有仓库不支持 Pages，故转公开；内容仅含公开市场行情与代码，无敏感信息）
+> - 部署方式：Settings → Pages → **Deploy from a branch**（main / 根目录），每次推送自动重建（约 1-2 分钟）
+> - 数据基线：41 品类 / 15 个当日实时价（新发地 2026-10-13）/ 26 个标注「沿用上期」
+> - 待完成：`.github/workflows/daily-prices.yml` 尚未入库（推送令牌缺 `workflow` 权限），补入后即恢复每日 09:30 全自动更新，详见「六、部署上线 → 方案 D」
+
+
 ```
 machang-veg-price/
 ├── index.html                  # 页面结构（含 SEO / Open Graph meta）
@@ -170,13 +178,15 @@ bash scripts/deploy_github.sh            # 默认建私有仓库 machang-veg-pri
 
 ### 方案 D：GitHub Pages（工作流自动部署，零额外配置）
 
-1. 把本仓库推到 GitHub（`git add -A && git commit -m init && git remote add origin <你的仓库> && git push -u origin main`）。
-2. 仓库 **Settings → Actions → General → Workflow permissions** 设为 **Read and write permissions**（让机器人能提交与部署）。
-3. 仓库 **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**（不要选 "Deploy from a branch"）。
-4. 之后每天 09:30（北京时间）工作流自动抓取、提交并重部署；访问 `https://<用户>.github.io/<仓库>/`。
-5. 自定义域名：Settings → Pages → Custom domain 添加，DNS 加 `CNAME` 指向 `<用户>.github.io`，Pages 自动签发 HTTPS。
+> **当前实际状态**：站点已用「分支部署」上线（main 每次推送自动重建）。工作流文件 `.github/workflows/daily-prices.yml` 已在本地仓库写好，但通过 API 推送时令牌缺 `workflow` scope（GitHub 对工作流文件返回 404 掩盖权限不足）。补入方式二选一：
+>
+> **方式 1（网页端，2 分钟，推荐）**：打开 https://github.com/jinmio/machang-veg-price → Add file → Create new file → 文件名填 `.github/workflows/daily-prices.yml` → 粘贴本地该文件全文 → Commit changes。随后到 Settings → Pages → Build and deployment → Source 改为 **GitHub Actions**。
+>
+> **方式 2（令牌）**：重新签发一个勾选 `workflow` scope 的 classic PAT，用 Contents API 推送该文件。
 
-> 工作流已含 `pages: write` / `id-token: write` 权限与 `environment: github-pages`，配合上述步骤即可全自动日更。
+工作流逻辑：**每天 09:30（北京时间）= 01:30 UTC** 自动运行抓取 + 合并两步，将新 `data.js` + `live_market.json` 提交回仓库，并**自带 GitHub Pages 部署步骤**（`upload-pages-artifact` + `deploy-pages`），无需再手动配置「Deploy from branch」。
+
+- 若部署在 **GitHub Pages**：工作流直接完成部署，开启 Pages 即得每日更新站点。
 
 ### 方案 E：自有服务器 / 宝塔
 
