@@ -1,0 +1,12 @@
+# 马厂蔬菜报价 · 每日定时更新（systemd timer）
+# 每天 09:30（本地时区）跑一次 daily_update.sh，抓取并重生成数据。
+[Unit]
+Description=马厂蔬菜报价 每日更新定时器
+
+[Timer]
+OnCalendar=*-*-* 09:30:00
+Persistent=true
+Unit=machang-price-update.service
+
+[Install]
+WantedBy=timers.target
