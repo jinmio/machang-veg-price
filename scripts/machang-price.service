@@ -1,0 +1,23 @@
+# 马厂蔬菜报价 · 静态站点服务（systemd 单元）
+# 安装：sudo cp scripts/machang-price.service /etc/systemd/system/
+#       sudo cp scripts/machang-price.timer   /etc/systemd/system/
+#       sudo systemctl daemon-reload
+#       sudo systemctl enable --now machang-price.timer   # 开启每日定时更新
+#       sudo systemctl enable --now machang-price.service # 开启站点服务
+#
+# 注意：把 /srv/machang-veg-price 改成你的仓库实际绝对路径；
+#       StaticFilePath 为该目录下 index.html 所在根目录。
+[Unit]
+Description=马厂蔬菜实时报价 静态站点
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/srv/machang-veg-price
+ExecStart=/usr/bin/python3 -m http.server 8080 --bind 0.0.0.0 --directory /srv/machang-veg-price
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
