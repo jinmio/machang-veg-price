@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>马厂老火锅 · 蔬菜实时报价 | 南京仓供应商</title>
+  <meta name="description" content="马厂老火锅南京仓蔬菜供应商实时报价，覆盖叶菜、根茎、菌菇、瓜茄、葱姜调味、豆蛋制品、水果等 40+ 品类，多供应商比价，时价每日更新，验收标准采用上海聚垒规格书。" />
+  <meta name="keywords" content="马厂老火锅,蔬菜报价,南京仓,火锅食材,蔬菜时价,批发价,多供应商比价,上海标准" />
+  <meta name="theme-color" content="#c8321f" />
+  <meta name="author" content="马厂老火锅" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="马厂老火锅 · 蔬菜实时报价" />
+  <meta property="og:description" content="南京仓蔬菜供应商实时报价，40+ 品类多供应商比价，时价每日更新，验收标准采用上海聚垒规格书。" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="马厂老火锅 · 蔬菜实时报价" />
+  <meta name="twitter:description" content="南京仓蔬菜供应商实时报价，40+ 品类多供应商比价，时价每日更新。" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌶️</text></svg>" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- 顶部刷新进度条 -->
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <!-- 顶部导航 -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="马厂老火锅首页">
+        <span class="brand-logo" aria-hidden="true">🌶️</span>
+        <span class="brand-text">马厂<strong>老火锅</strong></span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#prices">实时报价</a>
+        <a href="#standards">验收标准</a>
+        <a href="#note">数据说明</a>
+      </nav>
+      <div class="nav-right">
+        <span class="live" id="liveBadge" title="页面按设定间隔自动拉取最新数据">
+          <span class="live-dot" id="liveDot"></span><span id="liveText">实时</span>
+        </span>
+        <span class="nav-date" id="navDate">时价日期加载中…</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="hero-kicker">南京仓 · 蔬菜供应商 · 上海验收标准</p>
+      <h1 class="hero-title">蔬菜<em>实时报价</em>看板</h1>
+      <p class="hero-sub">覆盖叶菜、根茎、菌菇、瓜茄、葱姜调味、豆蛋制品、水果等全品类，<br />多供应商比价 · 时价每日更新 · 验收标准采用上海聚垒规格书。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#prices">查看今日报价</a>
+        <a class="btn btn-ghost" href="#standards">验收标准</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 实时行情滚动条 -->
+  <div class="ticker" id="ticker" aria-label="实时行情滚动条">
+    <div class="ticker-track" id="tickerTrack"></div>
+  </div>
+
+  <!-- 统计条 -->
+  <section class="stats" aria-label="数据概览">
+    <div class="container stats-grid" id="statsGrid"></div>
+  </section>
+
+  <!-- 今日市场快照 -->
+  <section class="snapshot" id="snapshot" aria-label="今日市场快照">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">今日市场快照</h2>
+        <p class="section-desc" id="snapMeta">—</p>
+      </div>
+      <div class="snap-grid">
+        <div class="snap-card coverage">
+          <div class="ring" id="coverageRing"><b id="coverageNum">0/0</b><span id="coveragePct">0%</span></div>
+          <div class="snap-cap">联网实时覆盖率（新发地当日价）</div>
+        </div>
+        <div class="snap-card movers">
+          <h3>今日跌幅榜</h3>
+          <div class="bars" id="dropBars"></div>
+        </div>
+        <div class="snap-card movers">
+          <h3>今日涨幅榜</h3>
+          <div class="bars" id="riseBars"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 报价主体 -->
+  <main class="container" id="prices">
+    <div class="section-head">
+      <h2 class="section-title">今日蔬菜报价</h2>
+      <p class="section-desc" id="priceMeta">—</p>
+    </div>
+
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input type="search" id="searchInput" placeholder="搜索品类，如 西红柿 / 香菇 / 生姜" aria-label="搜索蔬菜品类" autocomplete="off" />
+      </div>
+      <div class="toolbar-right">
+        <div class="sort-box">
+          <label for="sortSelect" class="sr-only">排序方式</label>
+          <select id="sortSelect" aria-label="排序方式">
+            <option value="default">默认（按品类）</option>
+            <option value="priceAsc">时价：低 → 高</option>
+            <option value="priceDesc">时价：高 → 低</option>
+            <option value="drop">跌幅最大</option>
+            <option value="rise">涨幅最高</option>
+          </select>
+        </div>
+        <button class="refresh-btn" id="refreshBtn" type="button" title="立即拉取最新数据">
+          <span id="refreshIcon">⟳</span> 刷新
+        </button>
+      </div>
+    </div>
+
+    <div class="chips" id="chips" role="tablist" aria-label="品类筛选"></div>
+    <div class="grid" id="cardGrid" aria-live="polite"></div>
+    <p class="empty" id="emptyState" hidden>没有匹配的品类，换个关键词试试。</p>
+  </main>
+
+  <!-- 上海通用验收标准 -->
+  <section class="standards" id="standards">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title light">通用验收标准</h2>
+        <p class="section-desc light" id="stdMeta">—</p>
+      </div>
+
+      <div class="tabs" id="stdTabs" role="tablist" aria-label="通用验收标准分类"></div>
+      <div class="tab-panels" id="stdPanels"></div>
+    </div>
+  </section>
+
+  <!-- 数据说明 -->
+  <section class="note" id="note">
+    <div class="container note-inner">
+      <h2 class="section-title light">数据口径说明</h2>
+      <div class="note-cards">
+        <article class="note-card">
+          <span class="note-ico" aria-hidden="true">📌</span>
+          <h3>时价来源</h3>
+          <p id="noteSource">全国主要批发市场（农业农村部信息中心）及各地市场公开行情，单位统一为「元/斤」。</p>
+        </article>
+        <article class="note-card">
+          <span class="note-ico" aria-hidden="true">⚖️</span>
+          <h3>报价与时价</h3>
+          <p id="noteQuote">南京仓报价含分拣、配送、损耗与利润，全国时价为产地/批发裸价，二者不可等同，建议作为议价与比价基准。</p>
+        </article>
+        <article class="note-card">
+          <span class="note-ico" aria-hidden="true">📋</span>
+          <h3>验收标准</h3>
+          <p id="noteStandard">与上海规格书重合的品类采用上海标准，其余品类沿用原验收标准；具体以到货封样为准。</p>
+        </article>
+        <article class="note-card">
+          <span class="note-ico" aria-hidden="true">🔄</span>
+          <h3>实时更新</h3>
+          <p>页面按设定间隔自动拉取最新数据；也可点右上角「刷新」立即获取。标「参考」的品类暂无当日逐品公开价，采用近期批发市场参考价。</p>
+        </article>
+      </div>
+      <p class="disclaimer" id="disclaimer">—</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>🌶️ 马厂老火锅 · 南京仓蔬菜供应商实时报价看板</p>
+      <p class="footer-sub" id="footerMeta">—</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="回到顶部" hidden>↑</button>
+
+  <script src="assets/data/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
