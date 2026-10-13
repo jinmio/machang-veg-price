@@ -1,0 +1,5 @@
+{
+  "_doc": "额外供应商价格配置（可选）。新增供应商两步：① 在 suppliers 数组加一条供应商定义；② 在 prices 里按【马厂报价表的客户名称】填该供应商的价格。保存后运行 python3.11 update_prices.py 重新生成 data.js。",
+  "suppliers": [],
+  "prices": {}
+}
