@@ -39,12 +39,5 @@ jobs:
           git config user.name "price-bot"
           git config user.email "bot@machang.local"
           git add assets/data/data.js assets/data/live_market.json
-          if git diff --cached --quiet; then
-            echo "无价格变化，跳过提交"
-          else
-            git commit -m "chore: 实时菜价更新 $(date +%Y-%m-%d)"
-            git push
-          else
-            git commit -m "chore: 实时菜价更新 $(date +%Y-%m-%d)"
-            git push
-          fi
+          git commit -m "chore: 实时菜价更新 $(date +%Y-%m-%d)" || echo "无价格变化，跳过"
+          git push
