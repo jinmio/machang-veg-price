@@ -44,3 +44,7 @@ jobs:
           else
             git commit -m "chore: 实时菜价更新 $(date +%Y-%m-%d)"
             git push
+          else
+            git commit -m "chore: 实时菜价更新 $(date +%Y-%m-%d)"
+            git push
+          fi
