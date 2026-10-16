@@ -224,6 +224,8 @@
       row.appendChild(el("span", "sup-price", fmt(p.price) + " 元/" + esc(p.unit)));
       if (isBest) row.appendChild(el("span", "sup-flag", "最低"));
       else if (p.isRef) row.appendChild(el("span", "sup-flag ref", "参考"));
+      // 查源链接：点开直达该价格的来源页面（新发地行情页 / 报价表原件 / 供应商报价）
+      if (p.url) row.appendChild(srcLink(p.url));
       if (maxP && p.unit === fUnit) {
         var bar = el("span", "sup-bar");
         bar.style.width = Math.max(8, p.price / maxP * 100) + "%";
@@ -232,6 +234,18 @@
       wrap.appendChild(row);
     });
     return wrap;
+  }
+
+  // 生成「查源 ↗」外链（新标签打开，带 noopener 防 tabnabbing）
+  function srcLink(url, text) {
+    var a = document.createElement("a");
+    a.className = "src-link";
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = text || "查源 ↗";
+    a.title = "点开核对这条价格的来源";
+    return a;
   }
 
   function renderStdPanel(it) {
@@ -291,8 +305,10 @@
       // 主价格来源说明（多方比价取最低）
       if (feat) {
         var sup = supInfo(feat.supplier);
-        card.appendChild(el("div", "price-cap",
-          "取最低 · " + esc(feat.label || sup.name) + (feat.date ? "（" + esc(feat.date) + "）" : "")));
+        var cap = el("div", "price-cap",
+          "取最低 · " + esc(feat.label || sup.name) + (feat.date ? "（" + esc(feat.date) + "）" : ""));
+        if (feat.url) cap.appendChild(srcLink(feat.url));
+        card.appendChild(cap);
       }
 
       // 数据新鲜度标识：实时(新发地当日) / 沿用上期
@@ -304,6 +320,7 @@
       var foot = el("div", "card-foot");
       var mkt = (it.prices || []).filter(function (p) { return p.supplier === "market"; })[0];
       foot.appendChild(el("span", "card-src", "来源：" + esc(mkt && mkt.note ? mkt.note : "—")));
+      if (mkt && mkt.url) foot.appendChild(srcLink(mkt.url, "查看行情页 ↗"));
       var btn = el("button", "std-toggle", "质量标准 ▾");
       btn.type = "button";
       var panel = renderStdPanel(it);
