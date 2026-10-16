@@ -1,5 +1,14 @@
 {
-  "_doc": "额外供应商价格配置（可选）。新增供应商两步：① 在 suppliers 数组加一条供应商定义；② 在 prices 里按【马厂报价表的客户名称】填该供应商的价格。保存后运行 python3.11 update_prices.py 重新生成 data.js。",
-  "suppliers": [],
+  "_doc": "额外供应商价格配置（可选）。新增供应商两步：① 在 suppliers 数组加一条供应商定义；② 在 prices 里按【马厂报价表的客户名称】填该供应商的价格。保存后运行 python3.11 update_prices.py 重新生成 data.js。prices 里每条价格可带 url 字段（该条报价的出处链接），前端会在价格行渲染「查源 ↗」按钮。",
+  "suppliers": [
+    {
+      "id": "shanghai",
+      "name": "上海仓·到仓价",
+      "short": "上海仓",
+      "type": "到仓价",
+      "color": "#1a7f8e",
+      "desc": "上海仓库到货价（待录入）"
+    }
+  ],
   "prices": {}
 }
