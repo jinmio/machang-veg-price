@@ -9,7 +9,7 @@ window.PRICE_DATA = {
     "priceDate": "2026-10-16",
     "liveDate": "2026-10-16",
     "liveCount": 15,
-    "generatedAt": "2026-10-16 06:13",
+    "generatedAt": "2026-10-16 17:28",
     "standardSource": "上海·聚垒蔬菜商品技术规格书",
     "standardVersion": "v1.0（2026-09-26）",
     "unitNote": "时价与报价单位均为「元/斤」；个别按包/袋/盒计价的品类（如菌菇、娃娃菜、鹌鹑蛋）其南京仓报价为包装价，与按斤时价不可直接比较，涨跌栏显示为「—」。",
@@ -236,7 +236,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -246,7 +247,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏南环桥/甘邦农/中卫/鄂黄商)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -30.0,
@@ -262,7 +264,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 3.5,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -287,7 +290,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -297,7 +301,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -76.2,
@@ -313,7 +318,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.38,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -338,7 +344,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -348,7 +355,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(中卫香葱/渝永川/苏/鄂)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -6.2,
@@ -364,7 +372,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 4.5,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -389,7 +398,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -399,7 +409,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -70.2,
@@ -415,7 +426,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.55,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -440,7 +452,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -450,7 +463,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(中卫小米椒7-9)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": 23.1,
@@ -466,7 +480,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 6.5,
         "unit": "斤",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -491,7 +506,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -501,7 +517,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -75.0,
@@ -517,7 +534,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.35,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -542,7 +560,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -552,7 +571,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏/中卫/滕/渝生姜)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -12.5,
@@ -568,7 +588,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 3.5,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -593,7 +614,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -603,7 +625,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(中卫/滕/遵义贝贝南瓜)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -20.0,
@@ -619,7 +642,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 2.0,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -644,7 +668,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -654,7 +679,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(中卫/亳/甘/渝/城阳金针菇)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": 0.0,
@@ -670,7 +696,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 3.0,
         "unit": "斤",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -695,7 +722,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -705,7 +733,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(中卫/苏/亳/甘香菇)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -38.9,
@@ -721,7 +750,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 5.5,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -746,7 +776,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -756,7 +787,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(渝永川/苏/鄂甜玉米)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": 12.0,
@@ -772,7 +804,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 2.5,
         "unit": "斤",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -797,7 +830,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -807,7 +841,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(京丰岳/亳/苏鸡蛋)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -27.0,
@@ -823,7 +858,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 4.6,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -848,7 +884,8 @@ window.PRICE_DATA = {
           "unit": "包",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -858,7 +895,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(城阳/遵义海鲜菇)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": null,
@@ -870,7 +908,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 3.0,
         "unit": "包",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -895,7 +934,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -905,7 +945,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏/中卫/滕/渝黄心土豆)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -14.3,
@@ -921,7 +962,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.2,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -946,7 +988,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -956,7 +999,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -67.9,
@@ -972,7 +1016,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.9,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -994,7 +1039,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1004,7 +1050,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -26.7,
@@ -1020,7 +1067,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.88,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -1045,7 +1093,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1055,7 +1104,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏/中卫/滕/渝莲藕)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -17.5,
@@ -1071,7 +1121,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 3.3,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1096,7 +1147,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1106,7 +1158,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏/中卫/滕/京丰青椒)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -34.6,
@@ -1122,7 +1175,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.7,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1147,7 +1201,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1157,7 +1212,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -68.8,
@@ -1173,7 +1229,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.0,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -1198,7 +1255,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1208,7 +1266,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(遵义鲜虫草花/城阳虫草花)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": 3.8,
@@ -1224,7 +1283,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 5.3,
         "unit": "斤",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1249,7 +1309,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1259,7 +1320,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -8.0,
@@ -1275,7 +1337,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 2.3,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -1300,7 +1363,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1310,7 +1374,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": 0.0,
@@ -1326,7 +1391,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 6.0,
         "unit": "斤",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1351,7 +1417,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1361,7 +1428,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -54.7,
@@ -1377,7 +1445,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 3.4,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -1402,7 +1471,8 @@ window.PRICE_DATA = {
           "unit": "袋",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1412,7 +1482,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(甘/城阳/鄂/遵义杏鲍菇)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": null,
@@ -1424,7 +1495,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 4.3,
         "unit": "袋",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1449,7 +1521,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1459,7 +1532,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏/中卫/滕/京丰白萝卜)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -46.7,
@@ -1475,7 +1549,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.8,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1500,7 +1575,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1510,7 +1586,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏/亳/渝/鄂山药)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -12.5,
@@ -1526,7 +1603,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 3.5,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1551,7 +1629,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1561,7 +1640,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(中卫/苏/亳/京丰茼蒿)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -28.6,
@@ -1577,7 +1657,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 3.0,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1602,7 +1683,8 @@ window.PRICE_DATA = {
           "unit": "包",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1612,7 +1694,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": null,
@@ -1624,7 +1707,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 5.0,
         "unit": "包",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1649,7 +1733,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1659,7 +1744,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(鄂折耳根/遵义折耳根)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -28.6,
@@ -1675,7 +1761,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 5.0,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1700,7 +1787,8 @@ window.PRICE_DATA = {
           "unit": "盒",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1710,7 +1798,8 @@ window.PRICE_DATA = {
           "date": "",
           "note": "近期批发市场参考(无10-12逐品公开价)",
           "isRef": true,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": null,
@@ -1722,7 +1811,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 4.0,
         "unit": "盒",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1747,7 +1837,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1757,7 +1848,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -60.0,
@@ -1773,7 +1865,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.32,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -1795,7 +1888,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1805,7 +1899,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -5.0,
@@ -1821,7 +1916,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.9,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -1846,7 +1942,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1856,7 +1953,8 @@ window.PRICE_DATA = {
           "date": "",
           "note": "近期批发市场参考(香草类无当日公开逐品)",
           "isRef": true,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -12.5,
@@ -1872,7 +1970,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 7.0,
         "unit": "斤",
-        "date": ""
+        "date": "",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1897,7 +1996,8 @@ window.PRICE_DATA = {
           "unit": "盒",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1907,7 +2007,8 @@ window.PRICE_DATA = {
           "date": "",
           "note": "近期批发市场参考(香草类无当日公开逐品)",
           "isRef": true,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": null,
@@ -1919,7 +2020,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 6.0,
         "unit": "盒",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1941,7 +2043,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1951,7 +2054,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏/鄂/遵义毛豆)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -30.0,
@@ -1967,7 +2071,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 2.8,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -1989,7 +2094,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -1999,7 +2105,8 @@ window.PRICE_DATA = {
           "date": "",
           "note": "近期批发市场参考(豆制品无当日公开逐品)",
           "isRef": true,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": 0.0,
@@ -2015,7 +2122,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 4.5,
         "unit": "斤",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -2037,7 +2145,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -2047,7 +2156,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏/亳/滕/渝去皮蒜)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": 20.0,
@@ -2063,7 +2173,8 @@ window.PRICE_DATA = {
         "label": "南京仓报价",
         "price": 3.5,
         "unit": "斤",
-        "date": "10月上半月"
+        "date": "10月上半月",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -2088,7 +2199,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -2098,7 +2210,8 @@ window.PRICE_DATA = {
           "date": "2026-10-12",
           "note": "全国批发市场2026-10-12(苏/中卫/滕/京丰胡萝卜)",
           "isRef": false,
-          "isLive": false
+          "isLive": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         }
       ],
       "delta": -43.8,
@@ -2114,7 +2227,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.9,
         "unit": "斤",
-        "date": "2026-10-12"
+        "date": "2026-10-12",
+        "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
       }
     },
     {
@@ -2139,7 +2253,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -2149,7 +2264,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -2.8,
@@ -2165,7 +2281,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 5.25,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -2190,7 +2307,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -2200,7 +2318,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -72.7,
@@ -2216,7 +2335,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.9,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
     {
@@ -2238,7 +2358,8 @@ window.PRICE_DATA = {
           "unit": "斤",
           "date": "10月上半月",
           "note": "",
-          "isRef": false
+          "isRef": false,
+          "url": "https://github.com/jinmio/machang-veg-price/blob/main/%E9%A9%AC%E5%8E%82%E8%80%81%E7%81%AB%E9%94%8510%E6%9C%88%E4%BB%BD%E4%B8%8A%E5%8D%8A%E6%9C%88%E8%94%AC%E8%8F%9C%E6%8A%A5%E4%BB%B7.xlsx"
         },
         {
           "supplier": "market",
@@ -2248,7 +2369,8 @@ window.PRICE_DATA = {
           "date": "2026-10-16",
           "note": "新发地",
           "isRef": false,
-          "isLive": true
+          "isLive": true,
+          "url": "http://wdb.xinfadi.com.cn/index.html"
         }
       ],
       "delta": -19.5,
@@ -2264,7 +2386,8 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 4.75,
         "unit": "斤",
-        "date": "2026-10-16"
+        "date": "2026-10-16",
+        "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     }
   ]
