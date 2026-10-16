@@ -276,7 +276,7 @@ a { color: inherit; text-decoration: none; }
 /* 供应商价格列表 + 迷你比价条 */
 .sup-list { margin-top: 10px; border-top: 1px dashed var(--line); padding-top: 10px; display: flex; flex-direction: column; gap: 6px; }
 .sup-row {
-  display: grid; grid-template-columns: 8px 1fr auto; gap: 8px; align-items: center; font-size: 13px;
+  display: grid; grid-template-columns: 8px 1fr auto auto; gap: 8px; align-items: center; font-size: 13px;
   padding: 7px 9px; border-radius: 10px; background: #faf5f1; position: relative; overflow: hidden;
 }
 .sup-row.best { background: #e7f6ee; box-shadow: inset 0 0 0 1px rgba(14,159,110,.35); }
@@ -287,6 +287,16 @@ a { color: inherit; text-decoration: none; }
 .sup-flag { grid-column: 1 / -1; justify-self: start; font-size: 10px; color: #fff; background: var(--best); padding: 1px 6px; border-radius: 999px; font-weight: 800; margin-top: -2px; }
 .sup-flag.ref { background: var(--amber); }
 .sup-bar { position: absolute; left: 0; bottom: 0; height: 3px; background: rgba(200,50,31,.25); border-radius: 999px; }
+
+/* 查源链接：每个取价都可点开核对来源 */
+.src-link {
+  font-size: 11px; font-weight: 700; color: var(--chili); white-space: nowrap;
+  text-decoration: none; border-bottom: 1px dashed rgba(200,50,31,.45);
+  padding-bottom: 1px; transition: color .15s, border-color .15s;
+}
+.src-link:hover { color: #a32713; border-bottom-style: solid; }
+.src-link:focus-visible { outline: 2px solid var(--chili); outline-offset: 2px; border-radius: 3px; }
+.price-cap .src-link { margin-left: 8px; }
 
 .card-foot { margin-top: 10px; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
 .card-src { font-size: 11.5px; color: var(--ink-soft); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
