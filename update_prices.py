@@ -30,6 +30,7 @@ import re
 import sys
 import datetime
 import os
+import urllib.parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_XLSX = os.path.join(HERE, "马厂老火锅10月份上半月蔬菜报价.xlsx")
@@ -38,6 +39,12 @@ SH_STD_JSON = os.path.join(HERE, "assets", "data", "sh_standards.json")
 SUPPLIERS_JSON = os.path.join(HERE, "assets", "data", "suppliers.json")
 LIVE_JSON = os.path.join(HERE, "assets", "data", "live_market.json")
 BASELINE_JSON = os.path.join(HERE, "assets", "data", "nanjing_baseline.json")
+
+# ---------- 取价来源链接（前端「查源」按钮直达，可点开核对） ----------
+XINFADI_PAGE_URL = "http://wdb.xinfadi.com.cn/index.html"  # 实时行情抓取源页（新发地）
+QUOTE_XLSX_NAME = "马厂老火锅10月份上半月蔬菜报价.xlsx"
+QUOTE_SHEET_URL = ("https://github.com/jinmio/machang-veg-price/blob/main/"
+                   + urllib.parse.quote(QUOTE_XLSX_NAME))  # 南京仓报价原始出处
 
 # ---------- 品类分组（按“客户名称/品名”匹配） ----------
 CATEGORY_MAP = {
@@ -255,6 +262,7 @@ def main():
                 "supplier": "nanjing", "label": "南京仓报价",
                 "price": quote_v, "unit": unit,
                 "date": "10月上半月", "note": "", "isRef": False,
+                "url": QUOTE_SHEET_URL,          # 点开可核对报价表原件
             })
         if cur_v is not None:
             prices.append({
@@ -263,8 +271,10 @@ def main():
                 "date": pdate or "", "note": source,
                 "isRef": "参考" in source,
                 "isLive": is_live,
+                # 当日实时抓取的价 -> 链到新发地行情页；沿用/参考价 -> 链回报价表
+                "url": XINFADI_PAGE_URL if is_live else QUOTE_SHEET_URL,
             })
-        # 额外供应商（按马厂品名匹配）
+        # 额外供应商（按马厂品名匹配；url 由 suppliers.json 逐条提供）
         for ep in extra_prices.get(name, []) or []:
             if ep.get("price") is None:
                 continue
@@ -276,6 +286,7 @@ def main():
                 "date": ep.get("date", pdate or ""),
                 "note": ep.get("note", ""),
                 "isRef": bool(ep.get("isRef", False)),
+                "url": ep.get("url", ""),
             })
 
         # ---- 涨跌（南京仓 vs 全国时价，单位一致才计算） ----
@@ -307,7 +318,7 @@ def main():
             "best": {"supplier": best["supplier"], "price": best["price"], "unit": best["unit"]} if best else None,
             "featured": ({"supplier": featured["supplier"], "label": featured["label"],
                           "price": featured["price"], "unit": featured["unit"],
-                          "date": featured["date"]} if featured else None),
+                          "date": featured["date"], "url": featured.get("url", "")} if featured else None),
         })
 
     price_date = sorted(price_dates)[-1] if price_dates else ""
