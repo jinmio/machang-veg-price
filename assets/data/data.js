@@ -9,7 +9,7 @@ window.PRICE_DATA = {
     "priceDate": "2026-10-16",
     "liveDate": "2026-10-16",
     "liveCount": 15,
-    "generatedAt": "2026-10-16 17:28",
+    "generatedAt": "2026-10-16 17:31",
     "standardSource": "上海·聚垒蔬菜商品技术规格书",
     "standardVersion": "v1.0（2026-09-26）",
     "unitNote": "时价与报价单位均为「元/斤」；个别按包/袋/盒计价的品类（如菌菇、娃娃菜、鹌鹑蛋）其南京仓报价为包装价，与按斤时价不可直接比较，涨跌栏显示为「—」。",
@@ -31,6 +31,14 @@ window.PRICE_DATA = {
         "type": "市场行情",
         "color": "#ef6c1a",
         "desc": "产地/批发市场裸价，每日更新"
+      },
+      {
+        "id": "shanghai",
+        "name": "上海仓·到仓价",
+        "short": "上海仓",
+        "type": "到仓价",
+        "color": "#1a7f8e",
+        "desc": "上海仓库到货价（待录入）"
       }
     ],
     "stats": {
