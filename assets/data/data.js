@@ -6,10 +6,10 @@ window.PRICE_DATA = {
     "title": "马厂老火锅 · 蔬菜实时报价",
     "subtitle": "南京仓蔬菜供应商 · 上海验收标准 · 多供应商比价",
     "quotePeriod": "2026年10月上半月",
-    "priceDate": "2026-10-30",
-    "liveDate": "2026-10-30",
+    "priceDate": "2026-10-31",
+    "liveDate": "2026-10-31",
     "liveCount": 15,
-    "generatedAt": "2026-10-30 07:37",
+    "generatedAt": "2026-10-31 07:24",
     "standardSource": "上海·聚垒蔬菜商品技术规格书",
     "standardVersion": "v1.0（2026-09-26）",
     "unitNote": "时价与报价单位均为「元/斤」；个别按包/袋/盒计价的品类（如菌菇、娃娃菜、鹌鹑蛋）其南京仓报价为包装价，与按斤时价不可直接比较，涨跌栏显示为「—」。",
@@ -306,7 +306,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 0.33,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -315,7 +315,7 @@ window.PRICE_DATA = {
       ],
       "delta": -79.4,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 0.33,
@@ -326,7 +326,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.33,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -414,7 +414,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 1.25,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -423,7 +423,7 @@ window.PRICE_DATA = {
       ],
       "delta": -76.0,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 1.25,
@@ -434,7 +434,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.25,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -522,7 +522,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 0.35,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -531,7 +531,7 @@ window.PRICE_DATA = {
       ],
       "delta": -75.0,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 0.35,
@@ -542,7 +542,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.35,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -1004,7 +1004,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 0.85,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -1013,7 +1013,7 @@ window.PRICE_DATA = {
       ],
       "delta": -69.6,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 0.85,
@@ -1024,7 +1024,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.85,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -1055,7 +1055,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 0.88,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -1064,7 +1064,7 @@ window.PRICE_DATA = {
       ],
       "delta": -26.7,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 0.88,
@@ -1075,7 +1075,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.88,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -1217,7 +1217,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 1.85,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -1226,7 +1226,7 @@ window.PRICE_DATA = {
       ],
       "delta": -42.2,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 1.85,
@@ -1237,7 +1237,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.85,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -1325,7 +1325,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 2.3,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -1334,7 +1334,7 @@ window.PRICE_DATA = {
       ],
       "delta": -8.0,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 2.3,
@@ -1345,7 +1345,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 2.3,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -1379,7 +1379,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 6.0,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -1388,7 +1388,7 @@ window.PRICE_DATA = {
       ],
       "delta": 0.0,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "nanjing",
         "price": 6.0,
@@ -1433,7 +1433,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 4.35,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -1442,7 +1442,7 @@ window.PRICE_DATA = {
       ],
       "delta": -42.0,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 4.35,
@@ -1453,7 +1453,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 4.35,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -1699,7 +1699,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 0.65,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -1708,7 +1708,7 @@ window.PRICE_DATA = {
       ],
       "delta": null,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": null,
       "featured": {
         "supplier": "nanjing",
@@ -1853,7 +1853,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 1.25,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -1862,7 +1862,7 @@ window.PRICE_DATA = {
       ],
       "delta": -62.1,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 1.25,
@@ -1873,7 +1873,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.25,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -1904,7 +1904,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 1.9,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -1913,7 +1913,7 @@ window.PRICE_DATA = {
       ],
       "delta": -5.0,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 1.9,
@@ -1924,7 +1924,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 1.9,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -2269,7 +2269,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 5.15,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -2278,7 +2278,7 @@ window.PRICE_DATA = {
       ],
       "delta": -4.6,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 5.15,
@@ -2289,7 +2289,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 5.15,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -2323,7 +2323,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 0.85,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -2332,7 +2332,7 @@ window.PRICE_DATA = {
       ],
       "delta": -74.2,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 0.85,
@@ -2343,7 +2343,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 0.85,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     },
@@ -2374,7 +2374,7 @@ window.PRICE_DATA = {
           "label": "全国批发时价",
           "price": 5.0,
           "unit": "斤",
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "note": "新发地",
           "isRef": false,
           "isLive": true,
@@ -2383,7 +2383,7 @@ window.PRICE_DATA = {
       ],
       "delta": -15.3,
       "marketLive": true,
-      "marketNote": "新发地 2026-10-30",
+      "marketNote": "新发地 2026-10-31",
       "best": {
         "supplier": "market",
         "price": 5.0,
@@ -2394,7 +2394,7 @@ window.PRICE_DATA = {
         "label": "全国批发时价",
         "price": 5.0,
         "unit": "斤",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "url": "http://wdb.xinfadi.com.cn/index.html"
       }
     }
